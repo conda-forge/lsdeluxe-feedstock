@@ -1,5 +1,5 @@
 {% set name = "lsdeluxe" %}
-{% set version = "1.1.5" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Peltoche/lsd/archive/v{{ version }}.tar.gz
-  sha256: 120935c7e98f9b64488fde39987154a6a5b2236cb65ae847917012adf5e122d1
+  sha256: dae8d43087686a4a1de0584922608e9cbab00727d0f72e4aa487860a9cbfeefa
 
 build:
   number: 0
